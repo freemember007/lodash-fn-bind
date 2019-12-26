@@ -23,10 +23,14 @@
     "es2020"
   ],
   "files": [
-    "*.js", "lib"
+    "*.js",
+    "lib"
   ],
   "dependencies": {
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "lodash-fn-bind": "^1.0.4"
   },
-  "scripts": { "test": "echo \"Tests should run on master branch.\"" }
+  "scripts": {
+    "test": "echo \"Tests should run on master branch.\""
+  }
 }

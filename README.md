@@ -1,6 +1,14 @@
 # lodash-fn-bind
 
-transform all lodash function to bindable function, with ec39 proposal new function bind syntax (::), you can do this:
+transform all lodash function to bindable function, with ec39 proposal new function bind syntax (::), you can do code fly.
+
+https://www.npmjs.com/package/lodash-fn-bind
+
+```javascript
+yarn add lodash-fn-bind
+```
+
+just a look:
 
 ```javascript
 
