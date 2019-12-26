@@ -42,7 +42,7 @@ const requestLogs = (IS_PROD ? '/usr/local/nginx/logs' : __dirname)
 all available functions:
 
 ```javascript
-// you can do this (crazy!):
+// if you want, you can do this (crazy!):
 foo
   ::_add()
   ::_after()
