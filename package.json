@@ -1,0 +1,32 @@
+{
+  "name": "lodash-bind",
+  "version": "1.1.1",
+  "description": "Enables chained lodash functions with ES bind (::) syntax",
+  "main": "index.js",
+  "author": "freemember007",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freemember007/lodash-bind.git"
+  },
+  "keywords": [
+    "lodash",
+    "bind",
+    "function bind",
+    "bind operator",
+    "double colon",
+    "tc39",
+    "tc39 proposal",
+    "es9",
+    "es10",
+    "es2019",
+    "es2020"
+  ],
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "scripts": { "test": "echo \"Tests should run on master branch.\"" }
+}
