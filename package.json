@@ -1,6 +1,6 @@
 {
   "name": "lodash-fn-bind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Enables chained lodash functions with ES bind (::) syntax",
   "main": "index.js",
   "author": "freemember007",
@@ -23,7 +23,7 @@
     "es2020"
   ],
   "files": [
-    "*.js"
+    "*.js", "./lib"
   ],
   "dependencies": {
     "lodash": "^4.13.1"
