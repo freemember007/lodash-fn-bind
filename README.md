@@ -2,9 +2,13 @@
 
 transform all lodash function to bindable function, with ec39 proposal new function bind syntax (::), you can do code fly.
 
+npm:
+
 https://www.npmjs.com/package/lodash-fn-bind
 
-```javascript
+install:
+
+```bash
 yarn add lodash-fn-bind
 ```
 
