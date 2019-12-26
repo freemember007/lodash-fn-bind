@@ -1,13 +1,13 @@
 {
-  "name": "lodash-bind",
-  "version": "1.1.1",
+  "name": "lodash-fn-bind",
+  "version": "1.0.2",
   "description": "Enables chained lodash functions with ES bind (::) syntax",
   "main": "index.js",
   "author": "freemember007",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freemember007/lodash-bind.git"
+    "url": "git+https://github.com/freemember007/lodash-fn-bind.git"
   },
   "keywords": [
     "lodash",

@@ -1,4 +1,4 @@
-# lodash-bind
+# lodash-fn-bind
 
 transform all lodash function to bindable function, with ec39 proposal new function bind syntax (::), you can do this:
 
@@ -13,6 +13,7 @@ import { renameKeys } from 'ramda-adjunct'
 import { _map, _filter, _uniqBy, _tap, } from 'lodash-bound'
 import { take, tryCatch, pluck, always, has,  omit, allPass } from 'ramda'
 
+const YESTERDAY = format('yMMdd', date('yesterday'))
 const requestLogs = (IS_PROD ? '/usr/local/nginx/logs' : __dirname)
   |> cat(`${#}/access.log-${YESTERDAY}`).split('\n')
   ::_map(tryCatch(JSON.parse, always({})))
